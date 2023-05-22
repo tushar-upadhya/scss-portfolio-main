@@ -1,10 +1,12 @@
 import React from "react";
 
-import Section from "../common/section";
-import BlogCard from "./blog-card";
-import Blog1 from "../../images/blogs/blog-thumb-1.jpg";
-import Blog2 from "../../images/blogs/blog-thumb-2.jpg";
-import Blog3 from "../../images/blogs/blog-thumb-3.jpg";
+import Section from "../../common/section/Section";
+
+import BlogCard from "./blog-card/BlogCard";
+
+import Blog1 from "../../assets/images/blogs/blog-thumb-1.jpg";
+import Blog2 from "../../assets/images/blogs/blog-thumb-2.jpg";
+import Blog3 from "../../assets/images/blogs/blog-thumb-3.jpg";
 
 import "./style.scss";
 

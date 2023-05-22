@@ -1,5 +1,5 @@
-@import "../../../style-config/mixins.scss",
-    "../../../style-config/variable.scss";
+@import "../../../style/mixins.scss", "../../../style/variable.scss";
+
 .blog-card {
     display: flex;
     flex-direction: column;
@@ -9,12 +9,14 @@
     overflow: hidden;
     cursor: pointer;
     margin-bottom: 20px;
+
     @include small-screen {
         height: 538px;
         width: calc(100% / 3);
         margin-right: 20px;
         margin-bottom: 0;
     }
+
     .image-section {
         width: 100%;
         height: 200px;
@@ -23,6 +25,7 @@
         @include small-screen {
             height: 250px;
         }
+
         img {
             width: 100%;
             height: 100%;
@@ -31,6 +34,7 @@
             display: block;
         }
     }
+
     .content-section {
         display: flex;
         flex-direction: column;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import Section from "../../common/section/Section";
 import Filters from "./filters/Filter";
