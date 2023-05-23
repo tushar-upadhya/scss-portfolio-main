@@ -1,7 +1,7 @@
 import { BsAwardFill } from "react-icons/bs";
 import { FaUser } from "react-icons/fa";
 
-import girl from "../../../assets/images/girl.png";
+import man from "../../../assets/images/man.png";
 
 import hand from "../../../assets/images/hand.png";
 
@@ -39,7 +39,7 @@ const IntroContent = () => {
                     />
                 </div>
                 <div className="right-col">
-                    <img src={girl} alt="Hello I am Keniya Andrew" />
+                    <img src={man} alt="Hello I am Keniya Andrew" />
 
                     <div className="highlights horizontal">
                         <div className="icon">
