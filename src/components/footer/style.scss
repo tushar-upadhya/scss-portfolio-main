@@ -49,6 +49,7 @@
         align-items: center;
         margin-top: 15px;
         transform: scale(0.7);
+
         @include small-screen {
             margin-top: 30px;
             transform: scale(1);
@@ -65,8 +66,11 @@
             font-size: 18px;
             margin: 0 12.5px;
             cursor: pointer;
+            transition: transform 0.3s ease;
+
             &:hover {
                 opacity: 0.5;
+                transform: scale(1.1);
             }
         }
     }
@@ -80,6 +84,7 @@
         align-items: center;
         justify-content: center;
         margin-top: 25px;
+
         @include small-screen {
             margin-top: 75px;
             height: 75px;
@@ -87,6 +92,17 @@
 
         .copyright-text {
             color: #777777;
+
+            a {
+                color: #ffffff;
+                text-decoration: none;
+                transition: all 0.3s ease;
+            }
+
+            a:hover {
+                color: $yellow;
+            }
+
             @include typography(12px, 400, 20px);
             @include small-screen {
                 @include typography(14px, 400, 22px);

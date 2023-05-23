@@ -1,15 +1,6 @@
-import {
-    FaYoutube,
-    FaGithub,
-    FaLinkedinIn,
-    FaStackOverflow,
-    FaInstagram,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 import Section from "../../common/section/Section";
-
-// import Logo from "../../assets/images/logo.png";
-
 import SocialIcon from "../../common/icon/Social";
 import { scrollToSection } from "../../utils/helpers";
 
@@ -19,10 +10,6 @@ const Footer = () => {
     return (
         <Section background="dark" className="footer">
             <div className="footer-content-wrapper">
-                {/* <div className="footer-logo">
-                    <img src={Logo} alt="JS Dev Hindi" />
-                </div> */}
-
                 <ul className="footer-menu-items">
                     <li
                         className="footer-menu-item"
@@ -57,23 +44,28 @@ const Footer = () => {
 
                 <div className="social-icons">
                     <SocialIcon
-                        color="#FF0000"
-                        icon={<FaYoutube />}
-                        link="https://www.youtube.com/"
+                        color="#0D2636"
+                        icon={<FaGithub />}
+                        link="https://github.com/tushar-upadhya/scss-portfolio-main"
                     />
 
-                    <SocialIcon color="#0D2636" icon={<FaGithub />} />
-
-                    <SocialIcon color="#0A66C2" icon={<FaLinkedinIn />} />
-
-                    <SocialIcon color="#f2740d" icon={<FaStackOverflow />} />
-
-                    <SocialIcon color="#E84C88" icon={<FaInstagram />} />
+                    <SocialIcon
+                        color="#0A66C2"
+                        icon={<FaLinkedinIn />}
+                        link="https://www.linkedin.com/in/tusharupadhya/"
+                    />
                 </div>
 
                 <div className="bottom-bar">
                     <div className="copyright-text">
-                        Copyright 2022 JS Dev Hindi | All Rights Reserved
+                        &copy;{new Date().getFullYear()} All Rights Reserved ||
+                        Designed and Coded by{" "}
+                        <a
+                            className="aHref"
+                            href="https://tusharupadhyay.vercel.app/"
+                        >
+                            Tushar Upadhyay
+                        </a>{" "}
                     </div>
                 </div>
             </div>
