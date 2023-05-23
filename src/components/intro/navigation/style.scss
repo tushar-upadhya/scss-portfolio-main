@@ -9,6 +9,7 @@
     @include small-screen {
         margin-top: 60px;
     }
+
     .app-logo {
         width: 100px;
         flex-shrink: 0;
@@ -20,6 +21,7 @@
             display: block;
         }
     }
+
     .mobile-menu {
         position: relative;
         z-index: 99;
@@ -27,6 +29,7 @@
             display: none;
         }
     }
+
     .navigation {
         align-items: center;
         position: fixed;
@@ -41,6 +44,7 @@
         justify-content: center;
         align-items: center;
         gap: 35px;
+
         @include small-screen {
             display: flex;
             flex-direction: row;
@@ -58,17 +62,17 @@
             @include typography(24px, 700, 1);
             margin-left: 20px;
             padding: 5px;
-            box-shadow: inset 0 0 0 0 $white;
-            transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            transition: color 0.3s ease-in-out;
             cursor: pointer;
+
             @include small-screen {
                 @include typography(18px, 400, 1);
             }
             &:hover {
-                box-shadow: inset 200px 0 0 0 $white;
-                color: $black;
+                color: $yellow;
             }
         }
+
         .call-to-action {
             margin-left: 25px;
         }

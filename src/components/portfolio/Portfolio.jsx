@@ -110,6 +110,7 @@ const Portfolio = () => {
         <Section id="portfolio" title="Check My Portfolio" background="light">
             <div className="portfolio-content-wrapper">
                 <Filters filterProjects={(tag) => filterProjects(tag)} />
+
                 <Showcase data={projects} transition={transition} />
             </div>
         </Section>

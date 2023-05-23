@@ -1,5 +1,4 @@
 import Nav from "./navigation/Nav";
-
 import IntroContent from "./intro-content/IntroContent";
 
 import cloud from "../../assets/images/cloud.png";
