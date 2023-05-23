@@ -1,8 +1,8 @@
 import React from "react";
 
 import Section from "../shared/section";
-import ContactInfo from "./contact-info";
-import Form from "./form";
+import ContactInfo from "./contact-info/ContatInfomation";
+import Form from "./form/Form";
 
 import "./style.scss";
 
