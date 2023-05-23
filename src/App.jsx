@@ -1,7 +1,8 @@
 import "./app.scss";
 
 import Blogs from "./components/blogs/Blogs";
-import Contact from "./components/contact/Contact";
+// import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Skills from "./components/skills/Skills";
@@ -13,7 +14,8 @@ function App() {
             <Skills />
             <Portfolio />
             <Blogs />
-            <Contact />
+            {/* <Contact /> */}
+            <Footer />
         </>
     );
 }

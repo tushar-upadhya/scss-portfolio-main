@@ -1,13 +1,15 @@
-@import "../../style-config/mixins.scss", "../../style-config/variable.scss";
+@import "../../style/mixins.scss", "../../style/variable.scss";
 
 .footer {
     padding-bottom: 0;
 }
+
 .footer-content-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+
     .footer-logo {
         width: 120px;
         @include small-screen {
@@ -18,6 +20,7 @@
             width: 100%;
         }
     }
+
     .footer-menu-items {
         margin: 0;
         padding: 0;
@@ -25,6 +28,7 @@
         display: flex;
         align-items: center;
         margin-top: 30px;
+
         .footer-menu-item {
             @include typography(12px, 400, 20px);
             color: $white;
@@ -39,6 +43,7 @@
             }
         }
     }
+
     .social-icons {
         display: flex;
         align-items: center;
@@ -48,6 +53,7 @@
             margin-top: 30px;
             transform: scale(1);
         }
+
         .social-icon {
             width: 45px;
             height: 45px;
@@ -64,6 +70,7 @@
             }
         }
     }
+
     .bottom-bar {
         width: 100%;
         height: 50px;
@@ -77,6 +84,7 @@
             margin-top: 75px;
             height: 75px;
         }
+
         .copyright-text {
             color: #777777;
             @include typography(12px, 400, 20px);

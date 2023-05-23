@@ -1,7 +1,7 @@
-import React from "react";
 import { send } from "emailjs-com";
 import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
+
 import "react-toastify/dist/ReactToastify.css";
 
 import "./style.scss";
@@ -37,10 +37,7 @@ const Form = () => {
     return (
         <div className="query-form">
             <ToastContainer />
-            <form
-                id="queryForm"
-                onSubmit={handleSubmit(onSubmit)}
-            >
+            <form id="queryForm" onSubmit={handleSubmit(onSubmit)}>
                 <div className="input-field">
                     <input
                         type="text"
